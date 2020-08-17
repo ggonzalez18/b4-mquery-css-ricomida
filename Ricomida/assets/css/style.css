@@ -1,0 +1,103 @@
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+a.logo{
+ font-family: 'Lobster', cursive;
+ font-size: 37px;
+ color: white;
+ text-decoration: none;
+}
+a.logo:hover{
+ color:  #DC3545;
+}
+.contenedor_principal{
+margin-top: 100px;
+/* display: block; */
+}
+.texto_superior{
+color: #373A3C;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+padding-top: 20px;
+}
+.texto_bajada{
+color: #373A3C;
+font-size: 20px;
+font-weight: 700;
+}
+.btn-light{
+float: left;
+margin-top: 20px;
+margin-bottom: ;
+}
+hr{
+background-color: #373A3C;
+}
+.carousel-multi-item-2 .col-md-3 {
+float: left;
+width: 25%;
+max-width: 100%; }
+
+.carousel-multi-item-2 .card img {
+border-radius: 2px; }
+
+.cont_receta{
+float: left;
+margin-top: 20px;
+}
+.cont_newsletter{
+background-color: #DC3545;
+padding: 40px 0px 90px 0px;
+}
+.titulo_newsletter{
+color:white;
+font-size: 40px;
+font-weight: 700;
+}
+.bajada_newsletter{
+color:white;
+font-size: 30px;
+margin-bottom: 50px;
+}
+.ricomida_newsletter{
+color:white;
+font-family: 'Lobster', cursive;
+font-size: 30px;
+}
+.boton_newsletter{
+border: 1;
+border-color: white;
+margin-top: 30px;
+background-color: transparent;
+color: white;
+width: 230px;
+height: 40px;
+}
+.carousel-indicators{
+    bottom: -30px;
+}
+.carousel-indicators li{
+background-color: black;
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 50%;
+        max-width: 100%; }
+}
+
+@media only screen and (max-width: 768px) {
+    section.container.mt-5{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .texto_bajada, .texto_superior{
+        text-align: center;
+    }
+}
